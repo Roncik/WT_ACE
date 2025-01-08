@@ -1,0 +1,62 @@
+key = ERROR_KEY_NOT_FOUND
+NameEsp = true
+NameEsp_Name = true
+NameEsp_VehicleName = true
+NameEsp_Distance = true
+NameEsp_FlareCount = true
+NameEsp_reloading/cantshoot = true
+ShowFriendlies = false
+Boxes = true
+Snaplines = false
+Prediction = true
+PlayerList = false
+PlayerListDistance = 2000
+PartChams = true
+PartChams_body = true
+PartChams_ammo = true
+PartChams_crew = true
+PartChams_engine = true
+PartChams_RenderToPrediction = false
+PartChams_ShowMyTank = true
+MissileESP = true
+CCIPs = true
+AimAssist = true
+EnemyMarkers = false
+MouseAiminSim = true
+BombIndicator = true
+AutoBomb = false
+ZoomChanger = true
+ZoomMultiplier = 20
+NoScopeShadow = true
+AutoTargetPoint = true
+CameraChanger = false
+CameraChanger_X = -10
+CameraChanger_Y = 5
+AimbotHotkey = 82
+AutoBombHotkey = 82
+MenuHotkey = 45
+ATPHotkey = 82
+CloseCheatHotkey = 122
+FrameLimiter = false
+EnemyName_COLOR = { A: 255 | R: 255 | G: 0 | B: 0 }
+FriendlyName_COLOR = { A: 255 | R: 0 | G: 0 | B: 255 }
+VehicleName_COLOR = { A: 255 | R: 234.855 | G: 136.935 | B: 51.765 }
+Distance_COLOR = { A: 255 | R: 234.855 | G: 136.935 | B: 51.765 }
+Box_COLOR = { A: 255 | R: 255 | G: 255 | B: 255 }
+Parts_Crew_COLOR = { A: 199.997 | R: 0 | G: 51 | B: 204 }
+Parts_Body_COLOR = { A: 49.98 | R: 51 | G: 153 | B: 255 }
+Parts_Ammo_COLOR = { A: 99.9855 | R: 255 | G: 0 | B: 0 }
+Parts_Engine_COLOR = { A: 99.9855 | R: 255 | G: 204 | B: 0 }
+Parts_Barrel_COLOR = { A: 199.997 | R: 255 | G: 0 | B: 0 }
+PlayerList_COLOR = { A: 255 | R: 0 | G: 255 | B: 234.983 }
+Cantshoot/Reloading_COLOR = { A: 255 | R: 255 | G: 0 | B: 0 }
+SnapLines_Friendly_COLOR = { A: 255 | R: 0 | G: 0 | B: 255 }
+SnapLines_Enemy_COLOR = { A: 255 | R: 255 | G: 0 | B: 0 }
+
+FILE HAS TO BE NAMED config.txt !
+FILE HAS TO BE IN THE SAME FOLDER AS THE .EXE
+DO NOT CHANGE THE FORMAT, ORDER, NAMES OF THE SETTINGS
+true = enabled
+false = disabled
+Hotkey values are Virtual-Key Codes
+This config is exported

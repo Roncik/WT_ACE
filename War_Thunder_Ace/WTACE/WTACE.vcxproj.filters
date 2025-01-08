@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{274e7079-8e1d-44e7-bf36-8e27ad109d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KeyAuthCC">
+      <UniqueIdentifier>{a5a88511-5052-48ce-b849-ce4fc2dede1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Icons">
+      <UniqueIdentifier>{b9b23b7c-ea57-42dc-86c8-746b98103841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PrecompiledHeader">
+      <UniqueIdentifier>{c9193dd3-ab15-46d0-b5f9-9fc3f09c4ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KDMAPPER">
+      <UniqueIdentifier>{e14f8cfb-f78b-4b03-b6d7-1876bfb8ba45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KDMAPPER">
+      <UniqueIdentifier>{11aeb32c-b785-4614-83f3-26fcfd703fe7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_driver.cpp">
+      <Filter>Source Files\KDMAPPER</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper.cpp">
+      <Filter>Source Files\KDMAPPER</Filter>
+    </ClCompile>
+    <ClCompile Include="portable_executable.cpp">
+      <Filter>Source Files\KDMAPPER</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Source Files\KDMAPPER</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper_utils.cpp">
+      <Filter>Source Files\KDMAPPER</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper_main.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="REGISTRY_MANAGER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverComms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Header Files\KeyAuthCC</Filter>
+    </ClInclude>
+    <ClInclude Include="MySDK.h">
+      <Filter>Header Files\KeyAuthCC</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patternsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="custom.h">
+      <Filter>Header Files\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>Header Files\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTIDEBUG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JunkCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\PrecompiledHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoMultipliers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualKeysList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1stdriver.h">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption.h">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver_resource.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_executable.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="service.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper_utils.hpp">
+      <Filter>Header Files\KDMAPPER</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib">
+      <Filter>Header Files\KeyAuthCC</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Header Files\KeyAuthCC</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkyrimOverlay.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\ikony\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
